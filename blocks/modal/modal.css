@@ -1,0 +1,15 @@
+@import url(__header/modal__header.css);
+@import url(__text/modal__text.css);
+@import url(__input-block/modal__input-block.css);
+@import url(__input/modal__input.css);
+
+
+.modal {
+    background-color: #ffffff;
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 24px;
+}

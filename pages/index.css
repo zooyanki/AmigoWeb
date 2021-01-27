@@ -1,0 +1,5 @@
+@import url(../blocks/page/page.css);
+@import url(../blocks/modal/modal.css);
+
+/*Модификаторы*/
+@import url(../blocks/modal/__text/_login/modal__text_login.css);
