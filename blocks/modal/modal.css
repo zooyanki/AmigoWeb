@@ -2,7 +2,10 @@
 @import url(__text/modal__text.css);
 @import url(__input-block/modal__input-block.css);
 @import url(__input/modal__input.css);
-
+@import url(__dropdown/modal__dropdown.css);
+@import url(__dropdown-menu/modal__dropdown-menu.css);
+@import url(__dropdown-shevron/modal__dropdown-shevron.css);
+@import url(__dropdown-select/modal__dropdown-select.css);
 
 .modal {
     background-color: #ffffff;

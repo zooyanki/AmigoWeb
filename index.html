@@ -23,18 +23,21 @@
       <p class="modal__text">Номер телефона</p>
       <input class="modal__input" placeholder="Введите ваш телефон">
     </div>
-    <div class="modal__input-block">
-      <p class="modal__text">Язык</p>
-      <ul>
-        <li><a>Язык</a></li>
-        <ul>
-          <li>Русский</li>
-          <li>Английский</li>
-          <li>Испанский</li>
-          <li>Китайский</li>
-        </ul>
+
+    <div class="modal__dropdown">
+      <div class="modal__dropdown-select">
+        <span class="modal__text modal__text_dropdown">Язык</span>
+        <img class="modal__dropdown-shevron">
+      </div>
+      <input type="hidden" name="gender">
+      <ul class="modal__dropdown-menu">
+          <li class="modal__text_dropdown" id="Russian">Русский</li>
+          <li class="modal__text_dropdown" id="English">Английский</li>
+          <li class="modal__text_dropdown" id="Spanish">Испанский</li>
+          <li class="modal__text_dropdown" id="Chinese">Китайский</li>
       </ul>
     </div>
+
     <div class="modal__input-block">
       <input class="modal__input_checkbox" type="checkbox">
       <p class="modal__text">Принимаю <a class="modal__text_link">условия</a> пользования</p>

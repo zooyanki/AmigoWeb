@@ -1,0 +1,12 @@
+.modal__dropdown-menu {
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 0;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #DBE2EA;
+    margin-top: 2px;
+    overflow: hidden;
+    display: block;
+    list-style: none;
+}

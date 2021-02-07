@@ -1,0 +1,15 @@
+.modal__dropdown {
+    position: relative;
+    width: calc(100% - 60px);
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #DBE2EA;
+    border-radius: 6px;
+}
+
+.modal__dropdown .modal__dropdown-select {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}

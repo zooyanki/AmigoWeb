@@ -1,0 +1,6 @@
+.modal__dropdown-shevron {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-image: url(../../../images/chevron_buttom.svg);
+}
